@@ -1,11 +1,16 @@
+@charset "UTF-8";
+
 * {
-    box-sizing: border-box;
-  }
+    margin: 0px;
+    padding: 0px;
+}
   
   body {
     font-family: Arial;
     padding: 10px;
-    background: #f1f1f1;
+    background: #5e2424;
+    max-width: 1000px;
+    margin: auto;
   }
   
   
