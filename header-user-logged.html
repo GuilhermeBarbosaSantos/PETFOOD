@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from www.ansonika.com/fooyes/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Oct 2022 11:26:33 GMT -->
+<!-- Mirrored from www.ansonika.com/fooyes/header-user-logged.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Oct 2022 11:28:39 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,9 +46,25 @@
                 </a>
             </div>
             <div class="layer"></div><!-- Opacity Mask Menu Mobile -->
-            <ul id="top_menu">
-                <li><a href="#sign-in-dialog" id="sign-in" class="login">Sign In</a></li>
-                <li><a href="#0" class="wishlist_bt_top" title="Your wishlist">Your wishlist</a></li>
+            <ul id="top_menu" class="drop_user">
+                <li>
+                    <div class="dropdown user clearfix">
+                        <a href="#" data-bs-toggle="dropdown">
+                            <figure><img src="img/avatar1.jpg" alt=""></figure><span>Jhon Doe</span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-menu-content">
+                                <ul>
+                                    <li><a href="#0"><i class="icon_cog"></i>Dashboard</a></li>
+                                    <li><a href="#0"><i class="icon_document"></i>Bookings</a></li>
+                                    <li><a href="#0"><i class="icon_heart"></i>Wish List</a></li>
+                                    <li><a href="#0"><i class="icon_key"></i>Log out</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /dropdown -->
+                </li>
             </ul>
             <!-- /top_menu -->
             <a href="#0" class="open_close">
@@ -62,7 +78,7 @@
                     <a href="index-2.html"><img src="img/logo.svg" width="162" height="35" alt=""></a>
                 </div>
                 <ul>
-                    <li class="submenu">
+                   <li class="submenu">
                         <a href="#0" class="show-submenu">Home</a>
                         <ul>
                             <li><a href="index-2.html">Address Autocomplete</a></li>
@@ -99,7 +115,7 @@
                                 </ul>
                             </li>
                             <li class="third-level"><a href="#0">Detail pages</a>
-                                <ul>
+                               <ul>
                                     <li><a href="detail-restaurant.html">Detail page 1</a></li>
                                     <li><a href="detail-restaurant-2.html">Detail page 2</a></li>
                                     <li><a href="detail-restaurant-3.html">Detail page 3</a></li>
@@ -147,8 +163,8 @@
         <div class="hero_single version_1">
             <div class="opacity-mask">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-8">
+                    <div class="row justify-content-lg-start justify-content-md-center">
+                        <div class="col-xl-6 col-lg-8">
                             <h1>Delivery or Takeaway Food</h1>
                             <p>The best restaurants at the best price</p>
                             <form method="post" action="http://www.ansonika.com/fooyes/grid-listing-filterscol.html">
@@ -195,7 +211,7 @@
                     <a href="grid-listing-filterscol.html">
                         <figure>
                             <span>98</span>
-                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_pizza.jpg" alt="" class="owl-lazy" width="350" height="450">
+                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_pizza.jpg" alt="" class="owl-lazy">
                             <div class="info">
                                 <h3>Pizza</h3>
                                 <small>Avg price $40</small>
@@ -207,7 +223,7 @@
                     <a href="grid-listing-filterscol.html">
                         <figure>
                             <span>87</span>
-                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_sushi.jpg" alt="" class="owl-lazy" width="350" height="450">
+                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_sushi.jpg" alt="" class="owl-lazy">
                             <div class="info">
                                 <h3>Japanese</h3>
                                 <small>Avg price $50</small>
@@ -219,7 +235,7 @@
                     <a href="grid-listing-filterscol.html">
                         <figure>
                             <span>55</span>
-                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_hamburgher.jpg" alt="" class="owl-lazy" width="350" height="450">
+                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_hamburgher.jpg" alt="" class="owl-lazy">
                             <div class="info">
                                 <h3>Burghers</h3>
                                 <small>Avg price $55</small>
@@ -231,7 +247,7 @@
                     <a href="grid-listing-filterscol.html">
                         <figure>
                             <span>55</span>
-                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_vegetarian.jpg" alt="" class="owl-lazy" width="350" height="450">
+                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_vegetarian.jpg" alt="" class="owl-lazy">
                             <div class="info">
                                 <h3>Vegetarian</h3>
                                 <small>Avg price $40</small>
@@ -243,7 +259,7 @@
                     <a href="grid-listing-filterscol.html">
                         <figure>
                             <span>65</span>
-                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_bakery.jpg" alt="" class="owl-lazy" width="350" height="450">
+                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_bakery.jpg" alt="" class="owl-lazy">
                             <div class="info">
                                 <h3>Bakery</h3>
                                 <small>Avg price $60</small>
@@ -255,7 +271,7 @@
                     <a href="grid-listing-filterscol.html">
                         <figure>
                             <span>25</span>
-                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_chinesse.jpg" alt="" class="owl-lazy" width="350" height="450">
+                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_chinesse.jpg" alt="" class="owl-lazy">
                             <div class="info">
                                 <h3>Chinese</h3>
                                 <small>Avg price $40</small>
@@ -267,7 +283,7 @@
                     <a href="grid-listing-filterscol.html">
                         <figure>
                             <span>35</span>
-                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_mexican.jpg" alt="" class="owl-lazy" width="350" height="450">
+                            <img src="img/home_cat_placeholder.jpg" data-src="img/home_cat_mexican.jpg" alt="" class="owl-lazy">
                             <div class="info">
                                 <h3>Mexican</h3>
                                 <small>Avg price $35</small>
@@ -295,7 +311,7 @@
                                 <li>
                                     <a href="detail-restaurant.html">
                                         <figure>
-                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_1.jpg" alt="" class="lazy" width="350" height="233">
+                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_1.jpg" alt="" class="lazy">
                                         </figure>
                                         <div class="score"><strong>9.5</strong></div>
                                         <em>Italian</em>
@@ -310,7 +326,7 @@
                                 <li>
                                     <a href="detail-restaurant.html">
                                         <figure>
-                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_2.jpg" alt="" class="lazy" width="350" height="233">
+                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_2.jpg" alt="" class="lazy">
                                         </figure>
                                         <div class="score"><strong>8.0</strong></div>
                                         <em>Mexican</em>
@@ -325,7 +341,7 @@
                                 <li>
                                     <a href="detail-restaurant.html">
                                         <figure>
-                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_3.jpg" alt="" class="lazy" width="350" height="233">
+                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_3.jpg" alt="" class="lazy">
                                         </figure>
                                         <div class="score"><strong>9.0</strong></div>
                                         <em>Sushi - Japanese</em>
@@ -346,7 +362,7 @@
                                 <li>
                                     <a href="detail-restaurant.html">
                                         <figure>
-                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_4.jpg" alt="" class="lazy" width="350" height="233">
+                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_4.jpg" alt="" class="lazy">
                                         </figure>
                                         <div class="score"><strong>9.5</strong></div>
                                         <em>Vegetarian</em>
@@ -361,7 +377,7 @@
                                 <li>
                                     <a href="detail-restaurant.html">
                                         <figure>
-                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_5.jpg" alt="" class="lazy" width="350" height="233">
+                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_5.jpg" alt="" class="lazy">
                                         </figure>
                                         <div class="score"><strong>8.0</strong></div>
                                         <em>Chinese</em>
@@ -376,7 +392,7 @@
                                 <li>
                                     <a href="detail-restaurant.html">
                                         <figure>
-                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_6.jpg" alt="" class="lazy" width="350" height="233">
+                                            <img src="img/location_list_placeholder.png" data-src="img/location_list_6.jpg" alt="" class="lazy">
                                         </figure>
                                         <div class="score"><strong>8.5</strong></div>
                                         <em>Pizza - Italian</em>
@@ -458,6 +474,7 @@
     <footer>
         <div class="wave footer"></div>
         <div class="container margin_60_40 fix_mobile">
+
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <h3 data-bs-target="#collapse_1">Quick Links</h3>
@@ -638,5 +655,5 @@ function initMap() {
 
 </body>
 
-<!-- Mirrored from www.ansonika.com/fooyes/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Oct 2022 11:26:59 GMT -->
+<!-- Mirrored from www.ansonika.com/fooyes/header-user-logged.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Oct 2022 11:28:40 GMT -->
 </html>
